@@ -1,0 +1,20 @@
+body {background-color: rgb(12, 12, 12);
+background:linear-gradient(#161414, #0b7a43)}
+
+.main {color:#22ae37;
+font-size:40px }
+
+.nav{
+    font-size:25px;
+    color:aliceblue
+}
+
+h3 {
+    font-size:20px;
+    color:blueviolet
+}
+
+
+
+.mainc{background:linear-gradient(rgba(120, 9, 224, 0.788)#121212)}
+
