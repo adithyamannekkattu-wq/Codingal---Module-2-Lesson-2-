@@ -1,0 +1,58 @@
+body {
+    background-image: url(https://t3.ftcdn.net/jpg/00/68/79/54/360_F_68795433_fjQuxeXBgS8WwBimyZgFcfIFFA5pRacx.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align:center;
+}
+
+.city{
+    color:aliceblue;
+    text-align:center;
+}
+
+.temperature{
+    font-size:35px;
+    position: relative;
+    top: -40px;
+    text-align: center;
+    color:aliceblue;
+}
+
+
+
+.classification{
+    color:rgb(255, 98, 0);
+    font-size:15px;
+    position: relative;
+    top:-150px;
+    text-align: center;
+}
+
+.info{
+    animation:twinkle 2s infinite alternate;
+    background:linear-gradient(rgba(38, 88, 180, 0.96), rgba(31, 49, 188, 0.133));
+    color:aliceblue;
+    position: relative;
+    top:-120
+}
+
+@keyframes twinkle{
+    from{ background-color: rgb(8, 75, 244);}
+    to{background-color: rgb(5, 195, 243);}
+}
+
+.compare{
+    color:rgb(9, 252, 179);
+    font-size: 20px;
+    text-decoration: bold;
+    text-align: left;
+}
+
+.map{
+    animation:twinkle 2s infinite alternate;
+    background:linear-gradient(rgba(38, 88, 180, 0.96), rgba(31, 49, 188, 0.133));
+    color:aliceblue;
+    position: relative;
+    top:-120
+}
